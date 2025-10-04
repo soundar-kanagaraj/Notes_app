@@ -1,0 +1,29 @@
+{
+    "name": "notes-app",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "next": "14.0.0",
+        "react": "18.2.0",
+        "react-dom": "18.2.0",
+        "@reduxjs/toolkit": "1.9.5",
+        "react-redux": "8.1.1",
+        "axios": "1.6.2",
+        "framer-motion": "10.16.5"
+    },
+    "devDependencies": {
+        "@types/node": "20.10.0",
+        "@types/react": "18.2.42",
+        "@types/react-dom": "18.2.17",
+        "autoprefixer": "10.4.16",
+        "postcss": "8.4.31",
+        "tailwindcss": "3.3.5",
+        "typescript": "5.3.2"
+    }
+}
